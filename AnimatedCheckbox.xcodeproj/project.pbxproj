@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE72B1C22B67E6B00EEDAFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE72B1B22B67E6B00EEDAFC /* AppDelegate.swift */; };
+		CDE72B1E22B67E6B00EEDAFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE72B1D22B67E6B00EEDAFC /* ViewController.swift */; };
+		CDE72B2122B67E6B00EEDAFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE72B1F22B67E6B00EEDAFC /* Main.storyboard */; };
+		CDE72B2322B67E6D00EEDAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE72B2222B67E6D00EEDAFC /* Assets.xcassets */; };
+		CDE72B2622B67E6D00EEDAFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE72B2422B67E6D00EEDAFC /* LaunchScreen.storyboard */; };
+		CDE72B3122B67E6D00EEDAFC /* AnimatedCheckboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE72B3022B67E6D00EEDAFC /* AnimatedCheckboxTests.swift */; };
+		CDE72B3C22B67E6D00EEDAFC /* AnimatedCheckboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE72B3B22B67E6D00EEDAFC /* AnimatedCheckboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE72B2D22B67E6D00EEDAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE72B1022B67E6B00EEDAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE72B1722B67E6B00EEDAFC;
+			remoteInfo = AnimatedCheckbox;
+		};
+		CDE72B3822B67E6D00EEDAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE72B1022B67E6B00EEDAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE72B1722B67E6B00EEDAFC;
+			remoteInfo = AnimatedCheckbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDE72B1822B67E6B00EEDAFC /* AnimatedCheckbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedCheckbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE72B1B22B67E6B00EEDAFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE72B1D22B67E6B00EEDAFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE72B2022B67E6B00EEDAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE72B2222B67E6D00EEDAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE72B2522B67E6D00EEDAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE72B2722B67E6D00EEDAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE72B2C22B67E6D00EEDAFC /* AnimatedCheckboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCheckboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE72B3022B67E6D00EEDAFC /* AnimatedCheckboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCheckboxTests.swift; sourceTree = "<group>"; };
+		CDE72B3222B67E6D00EEDAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE72B3722B67E6D00EEDAFC /* AnimatedCheckboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCheckboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE72B3B22B67E6D00EEDAFC /* AnimatedCheckboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCheckboxUITests.swift; sourceTree = "<group>"; };
+		CDE72B3D22B67E6D00EEDAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE72B1522B67E6B00EEDAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE72B2922B67E6D00EEDAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE72B3422B67E6D00EEDAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE72B0F22B67E6B00EEDAFC = {
+			isa = PBXGroup;
+			children = (
+				CDE72B1A22B67E6B00EEDAFC /* AnimatedCheckbox */,
+				CDE72B2F22B67E6D00EEDAFC /* AnimatedCheckboxTests */,
+				CDE72B3A22B67E6D00EEDAFC /* AnimatedCheckboxUITests */,
+				CDE72B1922B67E6B00EEDAFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE72B1922B67E6B00EEDAFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE72B1822B67E6B00EEDAFC /* AnimatedCheckbox.app */,
+				CDE72B2C22B67E6D00EEDAFC /* AnimatedCheckboxTests.xctest */,
+				CDE72B3722B67E6D00EEDAFC /* AnimatedCheckboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE72B1A22B67E6B00EEDAFC /* AnimatedCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				CDE72B1B22B67E6B00EEDAFC /* AppDelegate.swift */,
+				CDE72B1D22B67E6B00EEDAFC /* ViewController.swift */,
+				CDE72B1F22B67E6B00EEDAFC /* Main.storyboard */,
+				CDE72B2222B67E6D00EEDAFC /* Assets.xcassets */,
+				CDE72B2422B67E6D00EEDAFC /* LaunchScreen.storyboard */,
+				CDE72B2722B67E6D00EEDAFC /* Info.plist */,
+			);
+			path = AnimatedCheckbox;
+			sourceTree = "<group>";
+		};
+		CDE72B2F22B67E6D00EEDAFC /* AnimatedCheckboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE72B3022B67E6D00EEDAFC /* AnimatedCheckboxTests.swift */,
+				CDE72B3222B67E6D00EEDAFC /* Info.plist */,
+			);
+			path = AnimatedCheckboxTests;
+			sourceTree = "<group>";
+		};
+		CDE72B3A22B67E6D00EEDAFC /* AnimatedCheckboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE72B3B22B67E6D00EEDAFC /* AnimatedCheckboxUITests.swift */,
+				CDE72B3D22B67E6D00EEDAFC /* Info.plist */,
+			);
+			path = AnimatedCheckboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE72B1722B67E6B00EEDAFC /* AnimatedCheckbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE72B4022B67E6D00EEDAFC /* Build configuration list for PBXNativeTarget "AnimatedCheckbox" */;
+			buildPhases = (
+				CDE72B1422B67E6B00EEDAFC /* Sources */,
+				CDE72B1522B67E6B00EEDAFC /* Frameworks */,
+				CDE72B1622B67E6B00EEDAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedCheckbox;
+			productName = AnimatedCheckbox;
+			productReference = CDE72B1822B67E6B00EEDAFC /* AnimatedCheckbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE72B2B22B67E6D00EEDAFC /* AnimatedCheckboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE72B4322B67E6D00EEDAFC /* Build configuration list for PBXNativeTarget "AnimatedCheckboxTests" */;
+			buildPhases = (
+				CDE72B2822B67E6D00EEDAFC /* Sources */,
+				CDE72B2922B67E6D00EEDAFC /* Frameworks */,
+				CDE72B2A22B67E6D00EEDAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE72B2E22B67E6D00EEDAFC /* PBXTargetDependency */,
+			);
+			name = AnimatedCheckboxTests;
+			productName = AnimatedCheckboxTests;
+			productReference = CDE72B2C22B67E6D00EEDAFC /* AnimatedCheckboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE72B3622B67E6D00EEDAFC /* AnimatedCheckboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE72B4622B67E6D00EEDAFC /* Build configuration list for PBXNativeTarget "AnimatedCheckboxUITests" */;
+			buildPhases = (
+				CDE72B3322B67E6D00EEDAFC /* Sources */,
+				CDE72B3422B67E6D00EEDAFC /* Frameworks */,
+				CDE72B3522B67E6D00EEDAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE72B3922B67E6D00EEDAFC /* PBXTargetDependency */,
+			);
+			name = AnimatedCheckboxUITests;
+			productName = AnimatedCheckboxUITests;
+			productReference = CDE72B3722B67E6D00EEDAFC /* AnimatedCheckboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE72B1022B67E6B00EEDAFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Yasmine;
+				TargetAttributes = {
+					CDE72B1722B67E6B00EEDAFC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDE72B2B22B67E6D00EEDAFC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDE72B1722B67E6B00EEDAFC;
+					};
+					CDE72B3622B67E6D00EEDAFC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDE72B1722B67E6B00EEDAFC;
+					};
+				};
+			};
+			buildConfigurationList = CDE72B1322B67E6B00EEDAFC /* Build configuration list for PBXProject "AnimatedCheckbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE72B0F22B67E6B00EEDAFC;
+			productRefGroup = CDE72B1922B67E6B00EEDAFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE72B1722B67E6B00EEDAFC /* AnimatedCheckbox */,
+				CDE72B2B22B67E6D00EEDAFC /* AnimatedCheckboxTests */,
+				CDE72B3622B67E6D00EEDAFC /* AnimatedCheckboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE72B1622B67E6B00EEDAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE72B2622B67E6D00EEDAFC /* LaunchScreen.storyboard in Resources */,
+				CDE72B2322B67E6D00EEDAFC /* Assets.xcassets in Resources */,
+				CDE72B2122B67E6B00EEDAFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE72B2A22B67E6D00EEDAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE72B3522B67E6D00EEDAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE72B1422B67E6B00EEDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE72B1E22B67E6B00EEDAFC /* ViewController.swift in Sources */,
+				CDE72B1C22B67E6B00EEDAFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE72B2822B67E6D00EEDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE72B3122B67E6D00EEDAFC /* AnimatedCheckboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE72B3322B67E6D00EEDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE72B3C22B67E6D00EEDAFC /* AnimatedCheckboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE72B2E22B67E6D00EEDAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE72B1722B67E6B00EEDAFC /* AnimatedCheckbox */;
+			targetProxy = CDE72B2D22B67E6D00EEDAFC /* PBXContainerItemProxy */;
+		};
+		CDE72B3922B67E6D00EEDAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE72B1722B67E6B00EEDAFC /* AnimatedCheckbox */;
+			targetProxy = CDE72B3822B67E6D00EEDAFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE72B1F22B67E6B00EEDAFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE72B2022B67E6B00EEDAFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE72B2422B67E6D00EEDAFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE72B2522B67E6D00EEDAFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE72B3E22B67E6D00EEDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE72B3F22B67E6D00EEDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE72B4122B67E6D00EEDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7KEKE7786;
+				INFOPLIST_FILE = AnimatedCheckbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppStudio.AnimatedCheckbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE72B4222B67E6D00EEDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7KEKE7786;
+				INFOPLIST_FILE = AnimatedCheckbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppStudio.AnimatedCheckbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDE72B4422B67E6D00EEDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7KEKE7786;
+				INFOPLIST_FILE = AnimatedCheckboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppStudio.AnimatedCheckboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCheckbox.app/AnimatedCheckbox";
+			};
+			name = Debug;
+		};
+		CDE72B4522B67E6D00EEDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7KEKE7786;
+				INFOPLIST_FILE = AnimatedCheckboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppStudio.AnimatedCheckboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedCheckbox.app/AnimatedCheckbox";
+			};
+			name = Release;
+		};
+		CDE72B4722B67E6D00EEDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7KEKE7786;
+				INFOPLIST_FILE = AnimatedCheckboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppStudio.AnimatedCheckboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedCheckbox;
+			};
+			name = Debug;
+		};
+		CDE72B4822B67E6D00EEDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7KEKE7786;
+				INFOPLIST_FILE = AnimatedCheckboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppStudio.AnimatedCheckboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimatedCheckbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE72B1322B67E6B00EEDAFC /* Build configuration list for PBXProject "AnimatedCheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE72B3E22B67E6D00EEDAFC /* Debug */,
+				CDE72B3F22B67E6D00EEDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE72B4022B67E6D00EEDAFC /* Build configuration list for PBXNativeTarget "AnimatedCheckbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE72B4122B67E6D00EEDAFC /* Debug */,
+				CDE72B4222B67E6D00EEDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE72B4322B67E6D00EEDAFC /* Build configuration list for PBXNativeTarget "AnimatedCheckboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE72B4422B67E6D00EEDAFC /* Debug */,
+				CDE72B4522B67E6D00EEDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE72B4622B67E6D00EEDAFC /* Build configuration list for PBXNativeTarget "AnimatedCheckboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE72B4722B67E6D00EEDAFC /* Debug */,
+				CDE72B4822B67E6D00EEDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE72B1022B67E6B00EEDAFC /* Project object */;
+}
